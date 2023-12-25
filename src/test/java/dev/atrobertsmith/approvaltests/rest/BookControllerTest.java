@@ -47,8 +47,6 @@ class BookControllerTest {
         Approvals.verify(saveResponse.getResponse().getContentAsString());
     }
 
-
-
     @Test
     void happyPathEndToEnd() throws Exception {
         //GIVEN a book is saved
