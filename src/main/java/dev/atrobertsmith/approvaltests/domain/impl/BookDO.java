@@ -2,10 +2,12 @@ package dev.atrobertsmith.approvaltests.domain.impl;
 
 import dev.atrobertsmith.approvaltests.domain.IBookDO;
 import dev.atrobertsmith.approvaltests.model.Book;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class BookDO implements IBookDO {
 
     private final List<Book> inMemoryStorage;
