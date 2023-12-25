@@ -39,6 +39,11 @@
 			<artifactId>approvaltests</artifactId>
 			<version>22.3.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.16.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -88,7 +93,7 @@
 										<limit implementation="org.jacoco.report.check.Limit">
 											<counter>INSTRUCTION</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>0.75</minimum>
+											<minimum>0.78</minimum>
 										</limit>
 									</limits>
 								</rule>
