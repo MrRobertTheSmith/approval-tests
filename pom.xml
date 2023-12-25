@@ -17,6 +17,7 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+		<!-- TODO: when Spring is updated next, this + the exclusion might be removable  -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
