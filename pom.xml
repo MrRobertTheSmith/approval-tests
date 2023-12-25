@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>dev.atrobertsmith</groupId>
 	<artifactId>approval-tests</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>approval-tests</name>
 	<description>Learning about approval tests</description>
 	<properties>
@@ -82,7 +82,7 @@
 										<limit implementation="org.jacoco.report.check.Limit">
 											<counter>INSTRUCTION</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>0.50</minimum>
+											<minimum>0.90</minimum>
 										</limit>
 									</limits>
 								</rule>
