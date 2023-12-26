@@ -1,1 +1,0 @@
-[Book[title=Cat's Cradle, author=K Vonnegut], Book[title=Julian, author=G Vidal]]

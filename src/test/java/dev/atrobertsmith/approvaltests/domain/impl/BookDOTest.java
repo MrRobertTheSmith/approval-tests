@@ -5,7 +5,6 @@ import org.approvaltests.Approvals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-// This test tries out the
 class BookDOTest {
 
     private BookDO testTarget;
