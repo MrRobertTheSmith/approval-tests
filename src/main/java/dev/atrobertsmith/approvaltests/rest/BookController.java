@@ -28,7 +28,7 @@ public class BookController {
 
     @PostMapping("/api/v1/book")
     ResponseEntity<String> post(@RequestBody Book book) {
-        LOGGER.info("{}", book);
+        LOGGER.info("Received: {}", book);
 
         var saved = iBookDO.saveBook(book);
 
